@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    background-image: url("../../images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    background-image: url("../../images/icon-error.svg") !important;
+}
+
+.invalid {
+    border-color: #dc3545;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.btn-green:hover, .btn-green:active, .btn-green:visited , .btn-green {
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+}
+
+.btn-blue:hover, .btn-blue:active, .btn-blue:visited , .btn-blue {
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+}
